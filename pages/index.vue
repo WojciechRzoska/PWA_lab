@@ -32,6 +32,7 @@ import Modal from "../components/modal/modal.vue";
 export default {
   name: "IndexPage",
   components: { TopNav, BigImage, Thumb, Modal },
+  layout: "custom",
   data() {
     return {
       items: [

@@ -17,6 +17,7 @@ import BigImage from "../gallery/bigImage.vue";
 import Person from "../components/person/person.vue";
 export default {
   name: "AboutPage",
+  layout: "custom",
   components: { TopNav, BigImage, Person },
   created() {
     this.person = this.setPerson("Wojtek", "1000zl", "26");

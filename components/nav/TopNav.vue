@@ -9,6 +9,7 @@
     <div class="links">
       <NuxtLink class="link" to="/">Main</NuxtLink>
       <NuxtLink class="link" to="/about">About</NuxtLink>
+      <NuxtLink class="link" to="/nasa">Nasa</NuxtLink>
     </div>
   </div>
 </template>

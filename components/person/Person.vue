@@ -9,6 +9,7 @@
 <script>
 export default {
   name: "Person",
+  layout: "mainLayout",
   props: {
     name: {
       type: String,
